@@ -1,5 +1,5 @@
 # encoding library
-add_library(hash_lib 
+add_library(hash_lib STATIC
     crc32.cpp
     digest.cpp
     keccak.cpp
